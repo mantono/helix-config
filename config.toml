@@ -8,6 +8,10 @@ idle-timeout = 200
 completion-trigger-len = 3
 mouse = false
 
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
 [editor.cursor-shape]
 normal = "block"
 insert = "bar"

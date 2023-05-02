@@ -1,0 +1,41 @@
+theme = "everforest_dark_hc"
+
+[editor]
+bufferline = "multiple"
+auto-completion = true
+auto-format = true
+idle-timeout = 200
+completion-trigger-len = 3
+mouse = false
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.whitespace.render]
+space = "none"
+tab = "all"
+newline = "none"
+
+[editor.whitespace.characters]
+tab = "→"
+
+[keys.normal]
+#n = "goto_next_diag"
+#N = "goto_prev_diag"
+A-q = "workspace_diagnostics_picker"
+A-tab = "goto_next_buffer"
+C-down = "copy_selection_on_next_line"
+C-up = "copy_selection_on_prev_line"
+C-o = "file_picker_in_current_directory"
+"C-S-o" = "file_picker"
+"C-S-f" = "global_search"
+C-d = ":buffer-close"
+C-b = "goto_definition"
+C-q = "hover"
+"§" = "command_palette"
+
+[keys.insert]
+C-b = "goto_definition"
+C-q = "hover"

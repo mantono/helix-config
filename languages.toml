@@ -15,4 +15,4 @@ rulers = [100, 120]
 
 [[language]]
 name = "markdown"
-max-line-length = 100
+text-width = 100

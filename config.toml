@@ -15,7 +15,7 @@ git-ignore = false
 [editor.cursor-shape]
 normal = "block"
 insert = "bar"
-select = "block"
+select = "underline"
 
 [editor.whitespace.render]
 space = "none"

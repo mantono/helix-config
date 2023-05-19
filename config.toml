@@ -10,7 +10,7 @@ mouse = false
 
 [editor.file-picker]
 hidden = false
-git-ignore = false
+git-ignore = true
 
 [editor.cursor-shape]
 normal = "block"
@@ -43,3 +43,4 @@ C-q = "hover"
 [keys.insert]
 C-b = "goto_definition"
 C-q = "hover"
+C-space = "completion"

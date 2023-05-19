@@ -2,7 +2,7 @@
 name = "rust"
 indent = { tab-width = 4, unit = " " }
 language-server = { command = "/home/anton/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rust-analyzer" }
-rulers = [80]
+rulers = [100]
 auto-format = true
 
 [[language.config]]

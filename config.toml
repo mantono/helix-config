@@ -39,6 +39,10 @@ C-d = ":buffer-close"
 C-b = "goto_definition"
 C-q = "hover"
 "§" = "command_palette"
+left = "jump_view_left"
+right = "jump_view_right"
+up = "jump_view_up"
+down = "jump_view_down"
 
 [keys.insert]
 C-b = "goto_definition"

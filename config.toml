@@ -2,7 +2,7 @@ theme = "everforest_dark_hc"
 
 [editor]
 bufferline = "multiple"
-auto-completion = true
+auto-completion = false
 auto-format = true
 idle-timeout = 200
 completion-trigger-len = 3
@@ -24,6 +24,11 @@ newline = "none"
 
 [editor.whitespace.characters]
 tab = "→"
+
+[editor.statusline]
+left = ["mode", "file-name", "file-modification-indicator", "version-control"]
+center = ["spinner", "diagnostics"]
+right = ["selections", "position"]
 
 [keys.normal]
 #n = "goto_next_diag"

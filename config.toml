@@ -51,6 +51,7 @@ I = "insert_at_line_start"
 O = "insert_at_line_end"
 e = "delete_selection"
 C-x = "delete_selection"
+t = "select_regex"
 
 # Navigation
 A-q = "workspace_diagnostics_picker"
@@ -71,6 +72,8 @@ down = "jump_view_down"
 
 [keys.select]
 
+w = "extend_line_up"
+s = "extend_line_down"
 a = "extend_prev_word_end"
 A = "extend_char_left"
 d = "extend_next_word_end"

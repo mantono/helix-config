@@ -38,11 +38,11 @@ W = ["move_visual_line_up", "move_visual_line_up", "move_visual_line_up"]
 s = "move_visual_line_down"
 S = ["move_visual_line_down", "move_visual_line_down", "move_visual_line_down"]
 
-a = "move_prev_word_end"
-A = "move_char_left"
+a = "move_char_left"
+A = "move_prev_word_start"
 
-d = "move_next_word_end"
-D = "move_char_right"
+d = "move_char_right"
+D = "move_next_word_start"
 
 # Edit
 i = "insert_mode"
@@ -69,15 +69,16 @@ left = "jump_view_left"
 right = "jump_view_right"
 up = "jump_view_up"
 down = "jump_view_down"
+"A-ret" = "code_action"
 
 [keys.select]
 
 w = "extend_line_up"
 s = "extend_line_down"
-a = "extend_prev_word_end"
-A = "extend_char_left"
-d = "extend_next_word_end"
-D = "extend_char_right"
+a = "extend_char_left"
+A = "extend_prev_word_end"
+d = "extend_char_right"
+D = "extend_next_word_end"
 
 e = "delete_selection"
 C-x = "delete_selection"
@@ -86,3 +87,4 @@ C-x = "delete_selection"
 C-b = "goto_definition"
 C-q = "hover"
 C-space = "completion"
+"A-ret" = "code_action"

@@ -50,8 +50,10 @@ o = "append_mode"
 I = "insert_at_line_start"
 O = "insert_at_line_end"
 e = "delete_selection"
+E = "delete_char_backward"
 C-x = "delete_selection"
 t = "select_regex"
+f = ["select_all", "select_regex"]
 
 # Navigation
 A-q = "workspace_diagnostics_picker"

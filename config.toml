@@ -33,10 +33,10 @@ right = ["selections", "position"]
 [keys.normal]
 # Movement
 w = "move_visual_line_up"
-W = ["move_visual_line_up", "move_visual_line_up", "move_visual_line_up"]
+W = "goto_prev_paragraph"
 
 s = "move_visual_line_down"
-S = ["move_visual_line_down", "move_visual_line_down", "move_visual_line_down"]
+S = "goto_next_paragraph"
 
 a = "move_char_left"
 A = "move_prev_word_start"
@@ -58,6 +58,7 @@ f = ["select_all", "select_regex"]
 # Navigation
 A-q = "workspace_diagnostics_picker"
 A-tab = "goto_next_buffer"
+S-tab = "rotate_view"
 C-down = "copy_selection_on_next_line"
 C-up = "copy_selection_on_prev_line"
 C-o = "file_picker_in_current_directory"

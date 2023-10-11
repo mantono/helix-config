@@ -8,6 +8,13 @@ idle-timeout = 200
 completion-trigger-len = 3
 mouse = false
 
+[editor.soft-wrap]
+enable = true
+max-wrap = 100
+max-indent-retain = 0
+wrap-indicator = "↪"
+wrap-at-text-width = false
+
 [editor.file-picker]
 hidden = false
 git-ignore = true

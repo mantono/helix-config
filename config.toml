@@ -1,12 +1,17 @@
 theme = "everforest_dark_hc"
 
 [editor]
+cursorline = true
 bufferline = "multiple"
 auto-completion = false
 auto-format = true
 idle-timeout = 200
 completion-trigger-len = 3
+scrolloff = 20
 mouse = false
+
+[editor.search]
+smart-case = false
 
 [editor.soft-wrap]
 enable = true
@@ -80,6 +85,17 @@ right = "jump_view_right"
 up = "jump_view_up"
 down = "jump_view_down"
 "A-ret" = "code_action"
+"@" = [
+  "move_prev_word_start",
+  "move_next_word_end",
+  "search_selection",
+]
+"£" = [
+  "move_prev_word_start",
+  "move_next_word_end",
+  "search_selection",
+  "global_search",
+]
 
 [keys.select]
 

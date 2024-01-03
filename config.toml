@@ -85,17 +85,18 @@ right = "jump_view_right"
 up = "jump_view_up"
 down = "jump_view_down"
 "A-ret" = "code_action"
-"@" = [
+"," = [
   "move_prev_word_start",
   "move_next_word_end",
   "search_selection",
 ]
-"£" = [
+";" = [
   "move_prev_word_start",
   "move_next_word_end",
   "search_selection",
   "global_search",
 ]
+"'" = ["goto_line_start", "extend_to_line_end", "yank_to_clipboard"]
 
 [keys.select]
 
